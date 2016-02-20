@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Cutting Data">
+        <menu>
+            <item
+                android:id="@+id/milling"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Milling" />
+            <item
+                android:id="@+id/turning"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Turning" />
+            <item
+                android:id="@+id/drilling"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Drilling" />
+        </menu>
+    </item>
+
+    <item android:title="Threading">
+        <menu>
+            <item
+                android:id="@+id/threadingMetric"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Metric" />
+            <item
+                android:id="@+id/threadingUNC"
+                android:icon="@drawable/ic_menu_send"
+                android:title="UNC/F" />
+        </menu>
+    </item>
+    <item android:title="Geometry">
+        <menu>
+            <item
+                android:id="@+id/triangle"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Triangles" />
+            <item
+                android:id="@+id/square"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Parallelepiped" />
+        </menu>
+    </item>
+
+</menu>
